@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Happy Birthday Papa ❤️</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<!-- JS Libraries -->
+<script src="lib/jquery.min.js"></script>
+<script src="lib/jscex.min.js"></script>
+<script src="lib/jscex-parser.js"></script>
+<script src="lib/jscex-jit.js"></script>
+<script src="lib/jscex-builderbase.min.js"></script>
+<script src="lib/jscex-async.min.js"></script>
+<script src="lib/jscex-async-powerpack.min.js"></script>
+<script src="lib/functions.js"></script>
+<script src="lib/love.js"></script>
+
+<!-- Custom JS -->
+<script src="js/audio.js" defer></script>
+<script src="js/clock.js" defer></script>
+<script src="js/tree.js" defer></script>
+
+</head>
+
+<body>
+
+<div id="main">
+
+    <!-- 🎵 Audio -->
+    <audio id="myAudio" autoplay>
+        <source src="aud.mp3" type="audio/mp3">
+    </audio>
+
+    <!-- 🎉 Content -->
+    <div id="wrap">
+        <div id="text">
+            <div id="code">
+                <span class="say">Happy Birthday Papa 🎂😊</span><br>
+                <span class="say">You are my hero 💙</span><br>
+                <span class="say">Thank you for everything 🙏</span><br>
+                <span class="say">Wishing you happiness 🌟</span><br>
+                <span class="say">Love you ❤️</span>
+            </div>
+        </div>
+
+        <div id="clock-box">
+            <span id="clock">Loading countdown... ⏳</span>
+        </div>
+
+        <canvas id="canvas" width="1100" height="680"></canvas>
+    </div>
+</div>
+
+</body>
+</html>
